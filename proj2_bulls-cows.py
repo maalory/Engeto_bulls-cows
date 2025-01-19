@@ -25,7 +25,7 @@ def MakeNumber():
 def WelcomeMessage():
     print("Hi there!")
     print(spliter)
-    print("I've generated a random 4 digit number for you." + "\nLet's play a bulls and cows game.", ''.join(map(str,number))) #ZOBRAZÍ ČÍSLO
+    print("I've generated a random 4 digit number for you." + "\nLet's play a bulls and cows game.")
     print(spliter)
 
 def ValidateInput(user_input): #user input check
